@@ -54,7 +54,7 @@ function resetGame() {
   lastTimestamp = undefined;
 
   platforms = [{x: 50, w: 50}]
-  for (i=1; i<5; i++) {
+  for (let i=1; i<5; i++) {
     generatePlatform()
   }
 
